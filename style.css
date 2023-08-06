@@ -1,0 +1,18 @@
+:root {
+    --primary-blue: hsl(215, 51%, 70%);
+    --primary-cyan: hsl(178, 100%, 50%);
+
+    --neutral-blue-main-bg: hsl(217, 54%, 11%);
+    --neutral-blue-card-bg: hsl(216, 50%, 16%);
+    --neutral-blue-line: hsl(215, 32%, 27%);
+    --neutral-white: hsl(0, 0%, 100%);
+
+    --fs: 1.125rem;
+
+    --fw-m: 400;
+    --fw-s: 300;
+    --fw-l: 600;
+
+    /* Mobile: 375px */
+/* - Desktop: 1440px */
+}
