@@ -16,7 +16,7 @@ This is a solution to the NFT Preview Card Component challenge from Frontend Men
 
 ### What I learned
 
-* 
+* Use 'cursor: pointer' to change mouse cursor.
 
 ## Links
 
@@ -25,7 +25,7 @@ This is a solution to the NFT Preview Card Component challenge from Frontend Men
 
 ## Useful resources
 
-* 
+* https://www.w3schools.com/cssref/tryit.php?filename=trycss_cursor
 
 ## Acknowledgements
 
