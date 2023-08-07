@@ -17,6 +17,7 @@ This is a solution to the NFT Preview Card Component challenge from Frontend Men
 ### What I learned
 
 * Use 'cursor: pointer' to change mouse cursor.
+* To hide image had to put it inside <div>.
 
 ## Links
 
