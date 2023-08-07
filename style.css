@@ -141,10 +141,6 @@ main> p {
     background-color: var(--opacity-cyan);
     cursor: pointer;
     border-radius: 0.5em;
-}
-
-.icon:hover .icon-eye{
     z-index: 1;
+    transition: 0.25s;
 }
-
-
