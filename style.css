@@ -8,6 +8,8 @@
     --neutral-white: hsl(0, 0%, 100%);
 
     --fs: 1.125rem;
+    --fs-l: 1.35rem;
+    --fs-s: 1rem;
 
     --fw-m: 400;
     --fw-s: 300;
@@ -15,4 +17,102 @@
 
     /* Mobile: 375px */
 /* - Desktop: 1440px */
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-blue-main-bg);
+    font-size: var(--fs);
+    font-family: 'Outfit', sans-serif;
+    color: var(--primary-blue);
+}
+
+main {
+    background-color: var(--neutral-blue-card-bg);
+    padding: 1.5em;
+    border-radius: .5em;
+    max-width: 22rem;
+    margin: auto;
+}
+
+main> img {
+    max-width: 100%;
+    border-radius: 0.5em;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--fs-s);
+}
+
+h1 {
+    color: var(--neutral-white);
+    padding: .75em 0;
+    font-size: var(--fs-l);
+}
+
+main> p {
+    line-height: 1.5em;
+}
+
+.box> div {
+    display: flex;
+    gap: .5em;
+    padding: 1.5em 0;
+}
+.eth {
+    color: var(--primary-cyan);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    border-top: 0.1em solid var(--neutral-blue-line);
+    padding: 1em 0 0.5em;
+    font-size: var(--fs-s);
+}
+
+.creator img {
+    border: .1em solid var(--neutral-white);
+    border-radius: 50%;
+    max-width: 11%;
+}
+
+.creator div {
+    display: flex;
+    gap: 0.3rem;
+    padding-left: 1em;
+}
+
+.name {
+    color: var(--neutral-white);
+}
+
+.name:hover, h1:hover {
+    color: var(--primary-cyan);
+}
+
+/* .hero:hover {
+    background: url(images/icon-view.svg) no-repeat;
+} */
+
+.attribution { 
+    font-size: 0.625rem; 
+    margin-bottom: 0.5em;
+    color: var(--primary-blue);;
+}
+
+.attribution a {
+    color: var(--primary-cyan); 
 }
