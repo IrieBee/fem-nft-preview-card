@@ -6,7 +6,7 @@ This is a solution to the NFT Preview Card Component challenge from Frontend Men
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-nft-preview-card/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-nft-preview-card/blob/main/images/screenshot.jpg)
 
 ## Built with
 
@@ -22,8 +22,8 @@ This is a solution to the NFT Preview Card Component challenge from Frontend Men
 
 ## Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-nft-preview-card
-* Live Site URL: https://ltsybitsy.github.io/fem-nft-preview-card
+* Solution URL: https://github.com/IrieBee/fem-nft-preview-card
+* Live Site URL: https://IrieBee.github.io/fem-nft-preview-card
 
 ## Useful resources
 
